@@ -1,0 +1,44 @@
+{
+  "name": "@bqroster/reactpckg",
+  "version": "0.0.1",
+  "description": "Basic React package with typescript, tslint and jest",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bqroster/react-base-pckg.git"
+  },
+  "keywords": [
+    "react",
+    "npm package",
+    "typescript",
+    "tslint"
+  ],
+  "author": "Jose Burgos <jose@bqroster.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bqroster/react-base-pckg/issues"
+  },
+  "homepage": "https://github.com/bqroster/react-base-pckg#readme",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "webpack": "^4.34.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "webpack-cli": "^3.3.4"
+  }
+}
