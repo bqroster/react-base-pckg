@@ -16,5 +16,11 @@ module.exports = {
         'ts-jest': {
             tsConfig: path.resolve(__dirname, 'tsconfig.test.json')
         }
-    }
+    },
+    setupFilesAfterEnv: [
+        "<rootDir>/enzyme.config.js"
+    ],
+    moduleNameMapper: {
+        "~/(.*)": "<rootDir>/src/$1"
+      }
 };
