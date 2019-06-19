@@ -1,7 +1,11 @@
 import * as React from 'react';
 
-const BasicText: React.SFC<{}> = () => (
-    <div>React package basic component</div>
+type BasicTextProps = {
+    text: string
+};
+
+const BasicText: React.SFC<BasicTextProps> = ({text}) => (
+    <div>{text}</div>
 );
 
 export default BasicText;

@@ -10,7 +10,7 @@ describe('Basic Tests', () => {
     });
 
     test('Match <BasicText /> text content', () => {
-        const wrapper = shallow(<BasicText />);
+        const wrapper = shallow(<BasicText text="REACT PACKAGE BASIC COMPONENT" />);
         expect(wrapper.text().toLowerCase()).toBe('react package basic component');
     });
 });
