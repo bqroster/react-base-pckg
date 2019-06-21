@@ -1,10 +1,10 @@
 import * as React from 'react';
 
 type BasicTextProps = {
-    text: string
+    text: string // This property set the text for the component
 };
 
-const BasicText: React.SFC<BasicTextProps> = ({text}) => (
+const BasicText: React.SFC<BasicTextProps> = ({text = 'Default Text here'}) => (
     <div>{text}</div>
 );
 
