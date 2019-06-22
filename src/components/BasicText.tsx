@@ -1,7 +1,12 @@
 import * as React from 'react';
 
 type BasicTextProps = {
-    text: string // This property set the text for the component
+    /**
+     * innerText content for the BasicText component
+     * 
+     * @default Default Text Here
+     */
+    text: string
 };
 
 const BasicText: React.SFC<BasicTextProps> = ({text = 'Default Text here'}) => (
