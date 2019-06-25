@@ -16,3 +16,18 @@ Strat a NPM Package based on React, Typescript, Jest, Tslint and Webpack.
 },
 "homepage": "https://github.com/your_github_ccount/your_repository_name#readme",
 ```
+4. npm install
+
+### Before remove or update any file
+Confirm that everything is working as expected
+- npm run do-types
+- npm run test
+- npm run lint
+- npm run storybook
+
+### Current Versions
+- Node v10.16.0
+- NPM 6.9.0
+
+### Author
+Jose Burgos <jose@bqroster.com>
