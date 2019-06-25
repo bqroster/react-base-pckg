@@ -1,3 +1,14 @@
+/**
+ * You can use this file as a reference
+ * to start your own test
+ * 
+ * JEST
+ * https://jestjs.io/docs/en/getting-started
+ * 
+ * ENZYME
+ * https://airbnb.io/enzyme/docs/api/
+ */
+
 import * as React from 'react';
 import BasicText from '~/components/BasicText';
 import { shallow } from 'enzyme';
