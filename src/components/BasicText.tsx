@@ -1,3 +1,9 @@
+/**
+ * you can remove this file
+ * once you start creating
+ * components for your package
+ */
+
 import * as React from 'react';
 
 type BasicTextProps = {
